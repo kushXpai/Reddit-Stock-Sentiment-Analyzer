@@ -1,0 +1,22 @@
+# Ignore environment variables and secrets
+.env
+
+# Ignore data files and model outputs
+nltk_data_path.txt
+nitk_data/
+
+# Ignore Python bytecode and cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment (if present)
+venv/
+env/
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
