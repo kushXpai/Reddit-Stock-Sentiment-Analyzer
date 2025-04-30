@@ -1,0 +1,25 @@
+<!-- src/templates/comparison.html -->
+ 
+<div class="container">
+    <header>
+        <h1 class="header-title">Stock Comparison Tool</h1>
+        <p class="header-subtitle">Compare Reddit sentiment and metrics between two stocks</p>
+    </header>
+    
+    <section class="search-form comparison-form">
+        <h2 class="search-title">Enter Two Stock Symbols to Compare</h2>
+        <form id="comparisonForm">
+            <div class="input-group">
+                <input type="text" id="stockSymbol1" placeholder="First stock (e.g., AAPL)" required>
+                <input type="text" id="stockSymbol2" placeholder="Second stock (e.g., MSFT)" required>
+                <button type="submit" class="btn">
+                    <i class="fas fa-exchange-alt"></i>
+                    Compare
+                </button>
+            </div>
+        </form>
+    </section>
+    
+    <div id="comparisonResults" class="results"></div>
+    <div id="comparisonFooterError" class="footer-error"></div>
+</div>

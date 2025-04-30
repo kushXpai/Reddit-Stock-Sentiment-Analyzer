@@ -1,0 +1,24 @@
+<!-- src/templates/single_analysis.html -->
+ 
+<div class="container">
+    <header>
+        <h1 class="header-title">Reddit Stock Sentiment Analyzer</h1>
+        <p class="header-subtitle">Analyze Reddit sentiment for individual stocks based on posts and comments</p>
+    </header>
+    
+    <section class="search-form">
+        <h2 class="search-title">Enter a Stock Symbol to Analyze</h2>
+        <form id="singleStockForm">
+            <div class="input-group">
+                <input type="text" id="singleStockSymbol" placeholder="Enter stock symbol (e.g., AAPL, MSFT, TSLA)" required>
+                <button type="submit" class="btn">
+                    <i class="fas fa-search"></i>
+                    Analyze
+                </button>
+            </div>
+        </form>
+    </section>
+    
+    <div id="singleResults" class="results"></div>
+    <div id="singleFooterError" class="footer-error"></div>
+</div>
